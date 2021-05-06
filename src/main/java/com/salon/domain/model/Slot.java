@@ -31,22 +31,19 @@ public class Slot {
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JsonIgnore
-    Set<SalonServiceDetail> availableServices;
-
+    private Set<SalonServiceDetail> availableServices;
 
     @ManyToOne
     private SalonServiceDetail selectedService;
 
-    String stylistName;
+    private String stylistName;
 
-
-    LocalDateTime slotFor;
+    private LocalDateTime slotFor;
 
     private SlotStatus status;
 
-    LocalDateTime lockedAt;
-    LocalDateTime confirmedAt;
-
+    private LocalDateTime lockedAt;
+    private LocalDateTime confirmedAt;
 
 }
 

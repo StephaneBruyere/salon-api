@@ -1,0 +1,40 @@
+spring:
+
+# ===============================
+# DATABASE
+# ===============================
+  datasource:
+    url: ${postgres.url}
+    username: ${postgres.username}
+    password: ${postgres.pwd}
+# Keep the connection alive if idle for a long time (needed in production)
+    tomcat:
+      test-while-idle: true
+      validation-query: SELECT 1
+
+# ===============================
+# JPA / HIBERNATE
+# ===============================
+  jpa:
+#    show-sql: true
+    hibernate.ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    
+#Salon Details
+salon:
+  name:
+    AR Salon & Day Spa Services
+  address:
+    1234 Main Street
+  city:
+    Grand Forks
+  state:
+    ND
+  zipcode:
+    58201
+  phone:
+    555-123-4567
+
