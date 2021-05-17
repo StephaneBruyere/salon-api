@@ -37,4 +37,8 @@ salon:
     58201
   phone:
     555-123-4567
+    
+#Stripe
+stripe:
+  secret-key : ${stripe.private-key}
 

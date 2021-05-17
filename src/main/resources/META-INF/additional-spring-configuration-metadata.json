@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "stripe.public-key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.public-key'"
+  },
+  {
+    "name": "stripe.secret-key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.secret-key'"
+  },
+  {
+    "name": "salon.name",
+    "type": "java.lang.String",
+    "description": "A description for 'salon.name'"
+  },
+  {
+    "name": "salon.address",
+    "type": "java.lang.String",
+    "description": "A description for 'salon.address'"
+  },
+  {
+    "name": "salon.city",
+    "type": "java.lang.String",
+    "description": "A description for 'salon.city'"
+  },
+  {
+    "name": "salon.state",
+    "type": "java.lang.String",
+    "description": "A description for 'salon.state'"
+  },
+  {
+    "name": "salon.zipcode",
+    "type": "java.lang.String",
+    "description": "A description for 'salon.zipcode'"
+  },
+  {
+    "name": "salon.phone",
+    "type": "java.lang.String",
+    "description": "A description for 'salon.phone'"
+  }
+]}

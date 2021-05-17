@@ -47,6 +47,6 @@ public class Slot {
 
 }
 
-enum  SlotStatus {
-    AVAILABLE,LOCKED,CONFIRMED,CANCELLED
-}
+//enum  SlotStatus {
+//    AVAILABLE,LOCKED,CONFIRMED,CANCELLED
+//}
